@@ -2,11 +2,11 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour
+public class ohjeet : MonoBehaviour
 {
 
     public void LoadScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 }
